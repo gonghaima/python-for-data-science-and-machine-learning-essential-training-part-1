@@ -1,7 +1,19 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git *)"
+      "Bash(git *)",
+      "Bash(brew list *)",
+      "Bash(.venv/bin/pip freeze *)",
+      "Bash(/usr/local/bin/python3.13 -m venv .venv)",
+      "Bash(python3.13 --version)",
+      "Bash(python3.11 --version)",
+      "Read(//opt/homebrew/**)",
+      "Bash(/opt/homebrew/bin/python3 --version)",
+      "Bash(xargs file)",
+      "Bash(/usr/bin/python3 *)",
+      "Bash(pyenv versions *)",
+      "Bash(/Library/Frameworks/Python.framework/Versions/3.13/bin/python3.13 -m venv .venv)",
+      "Bash(.venv/bin/pip install *)"
     ]
   }
 }
